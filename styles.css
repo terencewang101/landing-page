@@ -2,28 +2,27 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
 .background-container {
     background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    padding: 0 96px;
+
 }
 
 .header,
 .landing {
     color: #F9FAF8;
+    margin: auto 150px;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px;
-    margin: 0;
+    padding: 32px 0;
 }
 
 .title {
@@ -33,11 +32,10 @@ body {
 
 .landing {
     display: flex;
-    flex: 1;
     align-items: center;
     justify-content: space-between;
-    padding: 16px;
-    margin: 48px 0; 
+    padding-top: 16px;
+    padding-bottom: 48px;
 }
 
 .landing-title {
@@ -115,6 +113,22 @@ button {
 
 #attribute {
     font-weight: 800;
+}
+
+.cta {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 48px;
+
+}
+
+#cta-title {
+    color: white;
+}
+
+#cta-text {
+    color: #E5E7EB;
 }
 
 .footer {
