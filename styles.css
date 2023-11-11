@@ -63,6 +63,19 @@ body {
     margin: 32px;
 }
 
+.directory-image {
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882F6;
+    width: 150px;
+    height: 150px;
+}
+
+.img-container {
+    flex-basis: 200px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
