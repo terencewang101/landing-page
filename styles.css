@@ -33,6 +33,7 @@ body {
 
 .landing {
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: space-between;
     padding: 16px;
@@ -46,6 +47,11 @@ body {
 
 .landing-right {
     margin-left: 120px;
+}
+
+.landing .text {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .information {
@@ -70,6 +76,11 @@ body {
     border-color: #3882F6;
     width: 150px;
     height: 150px;
+}
+
+.directory .text {
+    margin-top: 20px;
+    color: #3A3B3C;
 }
 
 .img-container {
