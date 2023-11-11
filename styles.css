@@ -13,7 +13,7 @@ body {
 .header,
 .landing {
     color: #F9FAF8;
-    margin: 0 150px;
+    margin: 0 20%;
 }
 
 .header {
@@ -71,7 +71,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin: 32px;
+    margin: 32px 20%;
 }
 
 .directory-image {
@@ -99,7 +99,7 @@ button {
 .grey-space {
     text-align: right;
     background-color: #E5E7EB;
-    padding: 72px 150px;
+    padding: 72px 20%;
     color: #1F2937;
 }
 
@@ -118,7 +118,7 @@ button {
     background-color: #3882F6;
     display: flex;
     justify-content: space-between;
-    margin: 72px 150px;
+    margin: 72px 20%;
     padding: 48px 96px;
     border-radius: 10px;
 }
