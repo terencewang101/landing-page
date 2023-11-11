@@ -70,14 +70,14 @@ button {
 .directory {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 48px;
     margin: 32px 20%;
 }
 
 .directory-image {
     border-radius: 10%;
     border-style: solid;
-    border-width: 3px;
+    border-width: 5px;
     border-color: #3882F6;
     width: 150px;
     height: 150px;
