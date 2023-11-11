@@ -5,7 +5,8 @@ body {
     margin: 0;
 }
 
-.background-container {
+.background-container,
+.footer {
     background-color: #1F2937;
 }
 
@@ -141,8 +142,9 @@ button {
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: auto;
+    color: #E5E7EB;
+    padding: 36px 0;
 }
 
 ul {
