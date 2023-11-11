@@ -7,13 +7,12 @@ body {
 
 .background-container {
     background-color: #1F2937;
-
 }
 
 .header,
 .landing {
     color: #F9FAF8;
-    margin: auto 150px;
+    margin: 0 150px;
 }
 
 .header {
@@ -54,8 +53,9 @@ button {
     color: white;
     background-color: #3882F6;
     font-size: 16px;
-    border-radius: 10%;
-    padding: 10px;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 700;
 }
 
 .information {
@@ -117,16 +117,25 @@ button {
     background-color: #3882F6;
     display: flex;
     justify-content: space-between;
-    margin: 24px 48px;
-
+    margin: 72px 150px;
+    padding: 48px 96px;
+    border-radius: 10px;
 }
 
 #cta-title {
     color: white;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 #cta-text {
     color: #E5E7EB;
+}
+
+.cta-button {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
 }
 
 .footer {
