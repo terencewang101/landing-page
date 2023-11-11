@@ -99,6 +99,24 @@ button {
     flex-basis: 200px;
 }
 
+.grey-space {
+    text-align: right;
+    background-color: #E5E7EB;
+    padding: 72px 48px;
+    color: #1F2937;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#attribute {
+    font-weight: 800;
+}
+
 .footer {
     display: flex;
     justify-content: center;
