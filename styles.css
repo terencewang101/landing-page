@@ -2,6 +2,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.background-container {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0 96px;
+}
+
+.header,
+.landing {
+    color: #F9FAF8;
 }
 
 .header {
@@ -9,13 +23,29 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 16px;
+
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .landing {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 16px;
+    padding: 16px;
+    margin: 48px 0; 
+}
+
+.landing-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.landing-right {
+    margin-left: 120px;
 }
 
 .information {
