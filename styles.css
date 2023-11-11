@@ -42,7 +42,12 @@ body {
 }
 
 .landing-right {
-    margin-left: 120px;
+    margin-left: 10%;
+    flex: 1 0.25 250px;
+}
+
+.landing-right img {
+    max-width: 100%;
 }
 
 .landing .text {
